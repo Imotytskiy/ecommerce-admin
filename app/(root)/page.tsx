@@ -1,3 +1,10 @@
+import { Button } from "@/components/ui/button";
+import { Divide } from "lucide-react";
+
 export default function Home() {
-  return <p>Hello admin</p>;
+  return (
+    <div className="p-4">
+      <Button>Click me</Button>
+    </div>
+  );
 }
